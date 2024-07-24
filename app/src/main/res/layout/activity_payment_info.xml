@@ -5,6 +5,16 @@
     android:orientation="vertical"
     android:padding="16dp"
     android:background="#F5F5F5">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#C3A6A6">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/shoe_image"/>
+    </LinearLayout>
 
     <TextView
         android:layout_width="wrap_content"

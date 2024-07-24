@@ -53,10 +53,58 @@
         android:textSize="16sp"
         android:layout_marginBottom="16dp" />
 
+    <LinearLayout
+        android:id="@+id/pay_with_google_pay_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="16dp"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="12dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pay with"
+            android:textSize="18sp"
+            android:textColor="#171616"
+            android:fontFamily="sans-serif-medium"
+            android:padding="12dp"
+            android:drawablePadding="8dp"/>
+
+
+        <ImageView
+            android:id="@+id/gpay_logo"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="8dp"
+            android:contentDescription="Google Pay Logo"
+            android:src="@drawable/gpay" />
+
+
+        <TextView
+            android:id="@+id/visa_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Visa **** 1234"
+            android:gravity="right"
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/text_background"
+            android:padding="8dp"
+            android:textStyle="bold"
+            android:layout_alignParentEnd="true" />
+
+    </LinearLayout>
+
     <Button
         android:id="@+id/place_order_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Place Order"
         android:layout_marginTop="16dp" />
+
 </LinearLayout>
