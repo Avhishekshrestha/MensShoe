@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ShoeStore</string>
+    <string name="order_completed">completed\n\n</string>
+    <string-array name="shoe_sizes">
+        <item>Size 7</item>
+        <item>Size 8</item>
+        <item>Size 9</item>
+        <item>Size 10</item>
+        <item>Size 11</item>
+        <item>Size 12</item>
+    </string-array>
+</resources>
